@@ -1,0 +1,16 @@
+[project]
+name = "deepsearch-agentic-system"
+version = "0.1.0"
+description = "Agentic deep research pipeline powered by LangGraph with iterative search, evidence extraction, and reflection."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.3.10",
+    "langchain-google-genai>=4.2.5",
+    "langgraph>=1.2.6",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.2.2",
+    "tavily-python>=0.7.26",
+    "fastapi>=0.115.0",
+    "uvicorn>=0.30.0",
+]
